@@ -1,5 +1,6 @@
 ### 长按按钮代码
-'''
+
+```
 from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
@@ -46,4 +47,4 @@ class LoClick(QPushButton):
             self.sinout.emit(4)
         self.timeoutflag = True
         self.timer.stop()
-'''        
+```     
