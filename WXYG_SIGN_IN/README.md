@@ -1,7 +1,7 @@
 ### 文心一格签到程序
-需要准备[chrome浏览器](https://www.google.com/chrome/)和对应版本的[chromedriver](https://chromedriver.chromium.org/downloads)
-因为本代码只做签到，不含登录等，需要手动登录保持cookie。
-将chromedriver放到代码文件路径
+需要准备[chrome浏览器](https://www.google.com/chrome/)和对应版本的[chromedriver](https://chromedriver.chromium.org/downloads)<br>
+因为本代码只做签到，不含登录等，需要手动登录保持cookie。<br>
+将chromedriver放到代码文件路径<br>
 ```
 from selenium import webdriver
 from selenium.webdriver.common.by import By
